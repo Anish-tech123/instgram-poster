@@ -1,12 +1,44 @@
 body {
     background-color: black;
+    font-family: "Roboto", sans-serif;
 }
 
 .post {
     width: 600px;
     background-color: white;
+    margin: auto;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 8px; 
+}
+.fa-html5 {
+    font-size: 25px;
+
+}
+.description h3, .description p {
+    margin: 0;
+}
+.fa-ellipsis-vertical {
+    margin-left: auto;
+    font-size: 25px;
 }
 
 .post-img img {
     width: 100%;
+}
+i {
+    padding-right: 10px;
+}
+.post-body {
+    padding: 8px;
+}
+
+.post-icons {
+    display: flex;
+}
+.fa-bookmark {
+    margin-left: auto;
 }
